@@ -37,6 +37,10 @@ optional arguments:
   -a AP, --ap AP        name of AP to get status of (default: overall check)
 ```
 
+License
+-------
+This project is licensed under the terms of the MIT license.
+
 Credits
 -------
 Based on Michel Greijmans' original UniFi WiFi Nagios Monitoring Plugin, available at: https://community.ubnt.com/t5/UniFi-Wireless/UniFi-WiFi-Nagios-Monitoring-Plugin/td-p/1092503
