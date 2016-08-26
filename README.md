@@ -1,5 +1,18 @@
-# check_unifi
+check_unifi
+===========
+
 Nagios plugin to check the UniFi Controller for AP status.
+
+Install
+-------
+The UniFi API pip module is required:
+
+    sudo pip install -U unifi
+    
+Copy check_unifi into your plugins directory.
+
+Usage
+-----
 
 usage: check_unifi [-h] [-H HOSTNAME] [-u USERNAME] [-p PASSWORD] [-b PORT]
                    [-v VERSION] [-s SITEID] [-w WARNING] [-c CRITICAL] [-a AP]
@@ -22,3 +35,7 @@ optional arguments:
   -c CRITICAL, --critical CRITICAL
                         amount of APs to be down for CRITICAL (default: none)
   -a AP, --ap AP        name of AP to get status of (default: overall check)
+
+Credits
+-------
+Based on Michel Greijmans' original UniFi WiFi Nagios Monitoring Plugin, available at: https://community.ubnt.com/t5/UniFi-Wireless/UniFi-WiFi-Nagios-Monitoring-Plugin/td-p/1092503
