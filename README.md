@@ -13,7 +13,8 @@ Copy check_unifi into your plugins directory.
 
 Usage
 -----
-```usage: check_unifi [-h] [-H HOSTNAME] [-u USERNAME] [-p PASSWORD] [-b PORT]
+```
+usage: check_unifi [-h] [-H HOSTNAME] [-u USERNAME] [-p PASSWORD] [-b PORT]
                    [-v VERSION] [-s SITEID] [-w WARNING] [-c CRITICAL] [-a AP]
 
 optional arguments:
@@ -33,7 +34,8 @@ optional arguments:
                         amount of APs to be down for WARNING (default: none)
   -c CRITICAL, --critical CRITICAL
                         amount of APs to be down for CRITICAL (default: none)
-  -a AP, --ap AP        name of AP to get status of (default: overall check)```
+  -a AP, --ap AP        name of AP to get status of (default: overall check)
+```
 
 Credits
 -------
